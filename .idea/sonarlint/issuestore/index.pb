@@ -21,3 +21,11 @@ Usrc/main/java/br/com/lffm/picpaydesafiobackend/transaction/TransactionRepositor
 Ksrc/main/java/br/com/lffm/picpaydesafiobackend/wallet/WalletRepository.java,3\c\3ca803ffdf9133608834e77c3cfec68a37d47a68
 ‰
 Ysrc/main/java/br/com/lffm/picpaydesafiobackend/exception/InvalidTransactionException.java,3\3\3323f4c3f2c33fdc9b753927c5fe4b1479fd2da8
+ƒ
+Ssrc/main/java/br/com/lffm/picpaydesafiobackend/authorization/AuthorizerService.java,f\2\f28a3f1ff88694963b4521fb13944ae4827e61a1
+Ž
+^src/main/java/br/com/lffm/picpaydesafiobackend/exception/UnauthorizedTransactionException.java,2\f\2f1c9c628f691a87509aec1ce4b375c00b9d80d6
+
+Osrc/main/java/br/com/lffm/picpaydesafiobackend/authorization/Authorization.java,0\4\042a27324afc793d43772d44904cfabf3c5464f4
+‹
+[src/main/java/br/com/lffm/picpaydesafiobackend/transaction/InvalidTransactionException.java,b\f\bfde09e575d834432d0be665430b77e392c1f3d9
