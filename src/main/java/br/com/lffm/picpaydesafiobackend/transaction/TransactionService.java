@@ -1,6 +1,7 @@
 package br.com.lffm.picpaydesafiobackend.transaction;
 
 import br.com.lffm.picpaydesafiobackend.authorization.AuthorizerService;
+import br.com.lffm.picpaydesafiobackend.notification.NotificationService;
 import br.com.lffm.picpaydesafiobackend.wallet.Wallet;
 import br.com.lffm.picpaydesafiobackend.wallet.WalletRepository;
 import br.com.lffm.picpaydesafiobackend.wallet.WalletType;
@@ -12,13 +13,15 @@ public class TransactionService {
 
     private final TransactionRepository transactionRepository;
     private final WalletRepository walletRepository;
-
     private final AuthorizerService authorizerService;
+    private final NotificationService notificationService;
 
-    public TransactionService(TransactionRepository transactionRepository, WalletRepository walletRepository, AuthorizerService authorizerService) {
+
+    public TransactionService(TransactionRepository transactionRepository, WalletRepository walletRepository, AuthorizerService authorizerService, NotificationService notificationService) {
         this.transactionRepository = transactionRepository;
         this.walletRepository = walletRepository;
         this.authorizerService = authorizerService;
+        this.notificationService = notificationService;
     }
 
     @Transactional
@@ -36,6 +39,10 @@ public class TransactionService {
         // 4 - Chamar serviços externos
         // authorize transaction
         authorizerService.authorize(transaction);
+
+        // 5 - Notificação
+        notificationService.notify(transaction);
+
 
         return newTransaction;
     }

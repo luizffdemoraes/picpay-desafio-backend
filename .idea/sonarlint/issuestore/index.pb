@@ -29,3 +29,11 @@ Ssrc/main/java/br/com/lffm/picpaydesafiobackend/authorization/AuthorizerService.
 Osrc/main/java/br/com/lffm/picpaydesafiobackend/authorization/Authorization.java,0\4\042a27324afc793d43772d44904cfabf3c5464f4
 ‹
 [src/main/java/br/com/lffm/picpaydesafiobackend/transaction/InvalidTransactionException.java,b\f\bfde09e575d834432d0be665430b77e392c1f3d9
+„
+Tsrc/main/java/br/com/lffm/picpaydesafiobackend/notification/NotificationService.java,8\b\8b110f246a9ef34d3e6d79382f6c130eeb93e617
+…
+Usrc/main/java/br/com/lffm/picpaydesafiobackend/notification/NotificationProducer.java,0\0\0023ca7ec8a1d097ff57a146deb22e9ccf96ebff
+…
+Usrc/main/java/br/com/lffm/picpaydesafiobackend/notification/NotificationConsumer.java,8\3\8356164a00ccce6622141aef8470b8f09a514b4a
+…
+Usrc/main/java/br/com/lffm/picpaydesafiobackend/notification/NotficationException.java,8\8\8889348d2c2a0ae8ae6b30a514289be59a780643
