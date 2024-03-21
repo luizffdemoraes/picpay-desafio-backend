@@ -1,4 +1,4 @@
-package br.com.lffm.picpaydesafiobackend.wallet;
+package br.com.lffm.picpaydesafiobackend.transaction;
 
 import br.com.lffm.picpaydesafiobackend.transaction.InvalidTransactionException;
 import org.springframework.http.ResponseEntity;
