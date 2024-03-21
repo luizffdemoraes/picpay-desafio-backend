@@ -5,6 +5,8 @@ import br.com.lffm.picpaydesafiobackend.notification.NotificationService;
 import br.com.lffm.picpaydesafiobackend.wallet.Wallet;
 import br.com.lffm.picpaydesafiobackend.wallet.WalletRepository;
 import br.com.lffm.picpaydesafiobackend.wallet.WalletType;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -12,7 +14,7 @@ import java.util.List;
 
 @Service
 public class TransactionService {
-
+    private static final Logger LOGGER = LoggerFactory.getLogger(TransactionService.class);
     private final TransactionRepository transactionRepository;
     private final WalletRepository walletRepository;
     private final AuthorizerService authorizerService;
@@ -47,7 +49,6 @@ public class TransactionService {
         // 5 - Notificação
         notificationService.notify(transaction);
 
-
         return newTransaction;
     }
 
@@ -57,6 +58,8 @@ public class TransactionService {
      * - the payer is not the payee
      */
     private void validate(Transaction transaction) {
+        LOGGER.info("validating transaction {}...", transaction);
+
         walletRepository.findById(transaction.payee())
             .map(payee -> walletRepository.findById(transaction.payer())
                 .map(payer -> isTransactionValid(transaction, payer) ? transaction : null)
