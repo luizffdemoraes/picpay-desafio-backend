@@ -47,3 +47,5 @@ B
 Vsrc/main/java/br/com/lffm/picpaydesafiobackend/wallet/TransactionExceptionHandler.java,e\b\eb6b0fff20738a8d906003bca42fc2832bc384c6
 ‹
 [src/main/java/br/com/lffm/picpaydesafiobackend/transaction/TransactionExceptionHandler.java,4\a\4a3a430819ae39bed037115e854e07702e45a048
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
