@@ -1,0 +1,14 @@
+
+	java:S112$"FDefine and throw a dedicated exception instead of using a generic one.(Å”Şßşÿÿÿÿ8ñß–æ1J$7a59f05c-b1ef-431d-b24d-b2dfa4ad6a1c
+r
+java:S37406"/Provide the parametrized type for this generic.(¾İŒ±8„ñß–æ1J$8198353e-8777-4910-8100-b2f966529857
+‰
+java:S22598"FA "NullPointerException" could be thrown; "getBody()" can return null.(¢òÛˆ8‘ñß–æ1J$a18e9be4-dfcb-47cd-be70-4388ab060b76
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8”ñß–æ1J$0c9a8ee4-da4b-4488-897e-e99de7f02f0f
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8•ñß–æ1J$99e58919-0bce-4bb0-b9c1-42958b2b26c0
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8•ñß–æ1J$e82988f7-06cd-4252-8d10-10fd66ea622b
+€
+java:S11725"8Remove these unused method parameters "sender", "value".(«•£Ñüÿÿÿÿ8Ÿñß–æ1J$6aa01300-c7e9-422c-b96a-f7dd9cce6ec5
