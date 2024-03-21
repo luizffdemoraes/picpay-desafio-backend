@@ -33,3 +33,9 @@ Csrc/main/java/br/com/lffm/picpaydesafiobackend/infra/AppConfig.java,3\5\358824
 Usrc/main/java/br/com/lffm/picpaydesafiobackend/domain/controllers/UserController.java,7\2\7249e6a22f4a24670a651f33e4d44a1c795a4dee
 w
 Gsrc/main/java/br/com/lffm/picpaydesafiobackend/domain/dtos/UserDTO.java,5\7\57817f5f5e9de7fae16e2d1a73cb0fc8a10b1ea2
+Œ
+\src/main/java/br/com/lffm/picpaydesafiobackend/domain/controllers/TransactionController.java,6\1\61b1241f904165cb49181541f154cd7ff4e8251c
+„
+Tsrc/main/java/br/com/lffm/picpaydesafiobackend/infra/ControllerExceptionHandler.java,6\c\6cdc99a4950d750585ffa2f8b072fc8400f7154f
+|
+Lsrc/main/java/br/com/lffm/picpaydesafiobackend/domain/dtos/ExceptionDTO.java,a\6\a689dc0b87a30c66b7df7590a1035f10d6faf86c

@@ -1,14 +1,16 @@
 
-	java:S112$"FDefine and throw a dedicated exception instead of using a generic one.(Å”Þßþÿÿÿÿ8ñß–æ1J$7a59f05c-b1ef-431d-b24d-b2dfa4ad6a1c
+	java:S112'"FDefine and throw a dedicated exception instead of using a generic one.(Å”Þßþÿÿÿÿ8°Ê‡™æ1J$ad1b37e5-aca6-4fa6-a07f-929e2957300b
 r
-java:S37406"/Provide the parametrized type for this generic.(¾ÝŒ±8„ñß–æ1J$8198353e-8777-4910-8100-b2f966529857
+java:S3740>"/Provide the parametrized type for this generic.(¾ÝŒ±8±Ê‡™æ1J$4e44e684-b309-46d3-a7f4-a59961a9df6f
 ‰
-java:S22598"FA "NullPointerException" could be thrown; "getBody()" can return null.(¢òÛˆ8‘ñß–æ1J$a18e9be4-dfcb-47cd-be70-4388ab060b76
+java:S2259@"FA "NullPointerException" could be thrown; "getBody()" can return null.(¢òÛˆ8ÇÊ‡™æ1J$8ef40336-fe3a-4f9e-925d-1875c8b54ae5
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8”ñß–æ1J$0c9a8ee4-da4b-4488-897e-e99de7f02f0f
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8ÉÊ‡™æ1J$97cdb097-a4a9-4fa2-b1cb-fff7ee103004
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8•ñß–æ1J$99e58919-0bce-4bb0-b9c1-42958b2b26c0
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8ÉÊ‡™æ1J$b5a24e48-8fa8-44c2-a53a-cd6bd10b68f5
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8•ñß–æ1J$e82988f7-06cd-4252-8d10-10fd66ea622b
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8ÉÊ‡™æ1J$f4f27374-5dbe-4c91-9612-36b91048434a
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8„ÌŒ™æ1J$80dd314c-cf74-4b42-9d47-3ca7811678ab
 €
-java:S11725"8Remove these unused method parameters "sender", "value".(«•£Ñüÿÿÿÿ8Ÿñß–æ1J$6aa01300-c7e9-422c-b96a-f7dd9cce6ec5
+java:S1172="8Remove these unused method parameters "sender", "value".(«•£Ñüÿÿÿÿ8ÒÊ‡™æ1J$edba8fa2-c815-4196-9383-a6322d75dc9a
