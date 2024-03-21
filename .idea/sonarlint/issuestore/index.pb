@@ -29,3 +29,7 @@ Wsrc/main/java/br/com/lffm/picpaydesafiobackend/domain/services/NotificationServ
 Osrc/main/java/br/com/lffm/picpaydesafiobackend/domain/dtos/NotificationDTO.java,5\9\59898bedf9464483c14eb4f046a1526f51e452ff
 s
 Csrc/main/java/br/com/lffm/picpaydesafiobackend/infra/AppConfig.java,3\5\35882410a6f5a6e3c3ed76335f99a1a4b1434ee9
+…
+Usrc/main/java/br/com/lffm/picpaydesafiobackend/domain/controllers/UserController.java,7\2\7249e6a22f4a24670a651f33e4d44a1c795a4dee
+w
+Gsrc/main/java/br/com/lffm/picpaydesafiobackend/domain/dtos/UserDTO.java,5\7\57817f5f5e9de7fae16e2d1a73cb0fc8a10b1ea2
