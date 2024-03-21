@@ -5,3 +5,7 @@
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 ƒ
 Ssrc/main/java/br/com/lffm/picpaydesafiobackend/PicpayDesafioBackendApplication.java,7\0\7034c4abe4f18f4b8f1f68a2a1b4665957acbf41
+t
+Dsrc/main/java/br/com/lffm/picpaydesafiobackend/domain/user/User.java,8\e\8e5efbec6dcb3870a7ffb6e7f3cf4a4c8da89992
+x
+Hsrc/main/java/br/com/lffm/picpaydesafiobackend/domain/user/UserType.java,1\1\11e25c27d45dd98c084686af14e8b2b20452987c
