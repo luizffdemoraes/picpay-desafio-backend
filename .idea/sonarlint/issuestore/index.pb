@@ -37,3 +37,11 @@ Usrc/main/java/br/com/lffm/picpaydesafiobackend/notification/NotificationProduce
 Usrc/main/java/br/com/lffm/picpaydesafiobackend/notification/NotificationConsumer.java,8\3\8356164a00ccce6622141aef8470b8f09a514b4a
 …
 Usrc/main/java/br/com/lffm/picpaydesafiobackend/notification/NotficationException.java,8\8\8889348d2c2a0ae8ae6b30a514289be59a780643
+…
+Usrc/main/java/br/com/lffm/picpaydesafiobackend/transaction/TransactionController.java,3\1\3159ebac61b558375e780f327c7df9dacf469dcd
+F
+src/docker-compose.yml,b\6\b6d47bf403e6132308330a3022bdaabcbc5e32b8
+B
+docker-compose.yml,3\5\35b8c13cf2eb2a194eada000eb310d65aed53b2a
+†
+Vsrc/main/java/br/com/lffm/picpaydesafiobackend/wallet/TransactionExceptionHandler.java,e\b\eb6b0fff20738a8d906003bca42fc2832bc384c6

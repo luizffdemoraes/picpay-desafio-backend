@@ -8,6 +8,8 @@ import br.com.lffm.picpaydesafiobackend.wallet.WalletType;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 @Service
 public class TransactionService {
 
@@ -32,9 +34,11 @@ public class TransactionService {
         // 2 - Criar a transação
         var newTransaction = transactionRepository.save(transaction);
 
-        // 3 - Debitar da Carteira
-        var wallet = walletRepository.findById(transaction.payee()).get();
-        walletRepository.save(wallet.debit(transaction.value()));
+        // 3 - Debitar da Carteira e creditar na outra carteira
+        var walletPayer = walletRepository.findById(transaction.payer()).get();
+        var walletPayee = walletRepository.findById(transaction.payee()).get();
+        walletRepository.save(walletPayer.debit(transaction.value()));
+        walletRepository.save(walletPayee.credit(transaction.value()));
 
         // 4 - Chamar serviços externos
         // authorize transaction
@@ -64,5 +68,9 @@ public class TransactionService {
         return payer.type() == WalletType.COMUM.getValue() &&
             payer.balance().compareTo(transaction.value()) >= 0 &&
             !payer.id().equals(transaction.payee());
+    }
+
+    public List<Transaction> list() {
+        return  transactionRepository.findAll();
     }
 }
